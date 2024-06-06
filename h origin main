@@ -1,0 +1,33 @@
+warning: in the working copy of 'src/App.jsx', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/src/App.jsx b/src/App.jsx[m
+[1mindex b8b8473..802ca1e 100644[m
+[1m--- a/src/App.jsx[m
+[1m+++ b/src/App.jsx[m
+[36m@@ -8,26 +8,7 @@[m [mfunction App() {[m
+ [m
+   return ([m
+     <>[m
+[31m-      <div>[m
+[31m-        <a href="https://vitejs.dev" target="_blank">[m
+[31m-          <img src={viteLogo} className="logo" alt="Vite logo" />[m
+[31m-        </a>[m
+[31m-        <a href="https://react.dev" target="_blank">[m
+[31m-          <img src={reactLogo} className="logo react" alt="React logo" />[m
+[31m-        </a>[m
+[31m-      </div>[m
+[31m-      <h1>Vite + React</h1>[m
+[31m-      <div className="card">[m
+[31m-        <button onClick={() => setCount((count) => count + 1)}>[m
+[31m-          count is {count}[m
+[31m-        </button>[m
+[31m-        <p>[m
+[31m-          Edit <code>src/App.jsx</code> and save to test HMR[m
+[31m-        </p>[m
+[31m-      </div>[m
+[31m-      <p className="read-the-docs">[m
+[31m-        Click on the Vite and React logos to learn more[m
+[31m-      </p>[m
+[32m+[m[32m      <h1>hii</h1>[m
+     </>[m
+   )[m
+ }[m
